@@ -8,6 +8,10 @@ CNN_Signs_Local.ipynb (or CNN_Signs_Local.py) reads datasets from a local direct
 ## Datasets
 Hand signs datasets either in the local directory, cifar-10-datasets, or on the AWS S3 bucket.
 
+## Architecture
+
+The major steps in the project are loading data, building the model, training the model on training dataset, and saving the best model, and after that, loading the saved model and making prediction on the test dataset.
+
 ## Requirements
 Python, Tensorflow, Keras, Jupyter Notebook, AWS S3, AWS Sagemaker.
 
